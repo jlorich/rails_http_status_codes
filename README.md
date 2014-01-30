@@ -2,7 +2,7 @@
 
 Since there wasn't a nicely formatted list with descriptions around, here's the available status codes.
 
-This is based off of the codes defined in [Rack::Utils](https://github.com/rack/rack/blob/master/lib/rack/utils.rb#L480)
+This is based off of the codes defined in [Rack::Utils](https://github.com/rack/rack/blob/master/lib/rack/utils.rb#L549)
 
 ---
 
