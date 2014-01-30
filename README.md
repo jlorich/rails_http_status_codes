@@ -7,38 +7,38 @@ This is based off of the codes defined in [Rack::Utils](https://github.com/rack/
 ---
 
 #####1xx Informational
-    Status   Symbol                          Description
+    Status   Symbol                           Description
     ------------------------------------------------------------
-    100      :continue                       Continue                         
-    101      :switching_protocols            Switching Protocols                         
-    102      :processing                     Processing                       
+    100      :continue                        Continue                         
+    101      :switching_protocols             Switching Protocols                         
+    102      :processing                      Processing                       
      
 #####2xx Success
-    Status   Symbol                          Description
+    Status   Symbol                           Description
     ------------------------------------------------------------
-    200      :ok                             OK                         
-    201      :created                        Created                         
-    202      :accepted                       Accepted                         
-    203      :non_authoritative_information  Non-Authoritative Information                         
-    204      :no_content                     No Content                         
-    205      :reset_content                  Reset Content                         
-    206      :partial_content                Partial Content                         
-    207      :multi_status                   Multi-Status                         
-    226      :im_used                        IM Used                         
+    200      :ok                              OK                         
+    201      :created                         Created                         
+    202      :accepted                        Accepted                         
+    203      :non_authoritative_information   Non-Authoritative Information                         
+    204      :no_content                      No Content                         
+    205      :reset_content                   Reset Content                         
+    206      :partial_content                 Partial Content                         
+    207      :multi_status                    Multi-Status                         
+    226      :im_used                         IM Used                         
      
 #####3xx Redirection
-    Status   Symbol                          Description
+    Status   Symbol                           Description
     ------------------------------------------------------------
-    300      :multiple_choices               Multiple Choices                         
-    301      :moved_permanently              Moved Permanently                         
-    302      :found                          Found                         
-    303      :see_other                      See Other                         
-    304      :not_modified  Not Modified                         
-    305      :use_proxy   Use Proxy                         
-    307      :temporary_redirect  Temporary Redirect                         
+    300      :multiple_choices                Multiple Choices                         
+    301      :moved_permanently               Moved Permanently                         
+    302      :found                           Found                         
+    303      :see_other                       See Other                         
+    304      :not_modified                    Not Modified                         
+    305      :use_proxy                       Use Proxy                         
+    307      :temporary_redirect              Temporary Redirect                         
      
 #####4xx Client Error
-    Status   Symbol                          Description
+    Status   Symbol                           Description
     ------------------------------------------------------------
     400      :bad_request                     Bad Request
     401      :unauthorized                    Unauthorized
@@ -64,13 +64,13 @@ This is based off of the codes defined in [Rack::Utils](https://github.com/rack/
     426      :upgrade_required                Upgrade Required
      
 #####5xx Server Error
-    Status   Symbol                          Description
+    Status   Symbol                           Description
     ------------------------------------------------------------
-    500      :internal_server_error          Internal Server Error
-    501      :not_implemented                Not Implemented
-    502      :bad_gateway                    Bad Gateway
-    503      :service_unavailable            Service Unavailable
-    504      :gateway_timeout                Gateway Timeout
-    505      :http_version_not_supported     HTTP Version Not Supported
-    507      :insufficient_storage           Insufficient Storage
-    510      :not_extended                   Not Extended
+    500      :internal_server_error           Internal Server Error
+    501      :not_implemented                 Not Implemented
+    502      :bad_gateway                     Bad Gateway
+    503      :service_unavailable             Service Unavailable
+    504      :gateway_timeout                 Gateway Timeout
+    505      :http_version_not_supported      HTTP Version Not Supported
+    507      :insufficient_storage            Insufficient Storage
+    510      :not_extended                    Not Extended
